@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    display: grid;
+    margin-top: 30vmin;
+}
+img {
+    width: 100vmin;
+}
+form {
+    font-size: 40px;
+}
+#entrar {
+    width: 95vmin;
+    height: 15vmin;
+    font-size: 30px;
+    background-color: orange;
+    margin-top: 1vmin ;
+}
+#nome {
+    height: 10vmin;
+    width: 50vmin;
+    font-size: 5vmin;
+}
+#senha {
+    position: relative;
+    width: 40vmin;
+    height: 10vmin;
+    font-size: 5vmin;
+    margin-right: 5vmin;
+}
