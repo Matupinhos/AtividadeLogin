@@ -1,6 +1,6 @@
 /* Definir um login */
 var usuario = {
-    nome: 'lorenzo',
+    nome: 'matheus',
     senha: 'abc'
 }
 /* Fazer uma função para pegar os dados que a pessoa botar e ver se é igual ao login */
