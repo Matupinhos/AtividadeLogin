@@ -12,13 +12,15 @@
     <div class="container">
         <img src="Visual/Imagem/icone_login.png" alt="">
         <form action="#" method="post">
-            <div>
-                <label id="Nome" for="nome">Nome:</label>
-                <input type="text" value="" id="nome" name="nome">
+            <div class="nome_senha">
+                <div>
+                    <label id="Nome" for="nome">Nome:</label>
+                    <input type="text" value="" id="nome" name="nome">
+                </div>
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password"  value="" id="senha" name="senha">
             </div>
-            <div>
-                <label for="senha">Senha:</label>
-                <input type="password"  value="" id="senha" name="senha">
             </div>
             <button type="button" id="entrar" onclick="pegarDados()">Entrar</a></button>
         </form>

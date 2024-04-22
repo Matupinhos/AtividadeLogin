@@ -1,32 +1,38 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
-}
 .container {
     display: grid;
     margin-top: 30vmin;
+    border-color: black;
+    border: 5px;
 }
 img {
     width: 100vmin;
 }
 form {
-    font-size: 40px;
+    font-size: 10vmin;
+    padding: 1px;
+    border-style:solid;
+    border-radius: 4vmin;
+    width: 94vmin;
+    height: 55vmin;
+    background-color:aliceblue;
 }
 #entrar {
-    width: 95vmin;
+    width: 91vmin;
     height: 15vmin;
     font-size: 30px;
-    background-color: orange;
+    background-color: lightblue;
     margin-top: 1vmin ;
+    margin-left: 1vmin;
 }
 #nome {
     height: 10vmin;
-    width: 50vmin;
+    width: 60vmin;
     font-size: 5vmin;
+    margin-top: 5vmin ;
 }
 #senha {
-    position: relative;
-    width: 40vmin;
+    width: 60vmin;
     height: 10vmin;
     font-size: 5vmin;
-    margin-right: 5vmin;
+    margin-top: 5vmin;
 }
